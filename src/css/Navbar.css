@@ -1,0 +1,79 @@
+.navbar{
+    padding: 0rem 0rem;
+    margin: 0rem 1rem;
+    /* box-shadow: 0.2rem 0.2rem 0.5rem gray; */
+}
+
+.navbar button{
+    background: transparent;
+    /* margin: 0rem 1rem; */
+    /* box-shadow: 0.2rem 0.2rem 0.5rem gray; */
+}
+
+.container-fluid{
+    /* border-radius: 15px;
+    border: 2px solid black;
+    background: #598fa8; */
+    margin: 0rem 0rem;
+    padding: 0rem 0rem;
+}
+
+.navbar-nav{
+    box-shadow: 0.2rem 0.5rem 0.5rem gray;
+    margin: 10px;
+    background-color: #598fa8;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+/* .navbar{
+    margin: 10px;
+    margin: 10px;
+    background-color: #598fa8;
+    border: 2px solid black;
+    border-radius: 15px;
+} 
+.container-fluid{
+    padding: 0px 0px;
+    background-color: #598fa8;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.navbar-nav{
+    margin: 10px;
+    background-color: #598fa8;
+    border: 2px solid black;
+    border-radius: 15px;
+} */
+/* .nav-link{
+    margin-left: 1rem;
+} */
+
+.nav-link:hover{
+    background-color: #8ab9d1;
+    border-radius: 10px;
+}
+
+.github-icon, .github-icon div{
+    display: inline;
+} 
+.github-icon svg{
+    margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        /* margin-top: 5rem; */
+        height: 2.5rem;
+        float: right;
+        position: absolute;
+        right: -36rem;
+        /* display: flex;
+        justify-content: end;
+        align-items: flex-end; */
+    }
+    
+    .navbar-toggler{
+        /* display: none; */
+    }
+
+}

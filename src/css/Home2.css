@@ -1,0 +1,194 @@
+.home-container{
+    position: relative;
+    top: -12rem;
+    display: flex;
+    flex-direction: row;
+}
+.college{
+    z-index: -1;
+    position: relative;
+    top: -11.3rem;
+    /* 809*732 */
+    /* height: 552px;
+    width: 820px; */
+    /* margin-left: -1rem; */
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-items{
+    display: inline;
+}
+.form-head{
+    /* position: relative; */
+    /* float: right; */
+    /* top: -47rem; */
+    width: 44.4rem;
+    height: 7rem;
+    /* height: auto; */
+    background-color: #598fa8;
+}
+#form-head-p1{
+    font-size:1.5rem; 
+    margin-top:1.7rem; 
+    margin-left: 3.5rem; 
+    line-height: 0.1rem;
+}
+#form-head-p2{
+    font-size:1.5rem; 
+    margin-bottom: 2.3rem; 
+    margin-left: 4rem; 
+    line-height: 0.1rem;
+}
+
+.form-head span{
+    border:1px solid black; 
+    border-radius: 50px;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+    padding: 0.5rem 1rem;
+    height: 1rem;
+}
+
+.form-body{
+    position: relative;
+    float: right;
+    /* top: -47rem; */
+    width: 44.4rem;
+    height: auto;
+    /* height: 26.9rem; */
+    /* height: auto; */
+    background-color: #8ab9d1;
+}
+.form-body label{
+    font-size: 1.3rem;
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+}
+.form-input-select{
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+    border-radius: 8px;
+    background-color: #c1f0f1;
+    border: 1px solid #c1f0f1;
+    font-size: 1.1rem;
+}
+
+.form-btn{
+    /* margin: 2rem 19%; */
+    border: 1px solid #dcdfe6;
+    padding: 0.5rem 1.5rem;
+    border-radius: 20px;
+    font-size: 1.3rem;
+    background-color: #dcdfe6;
+}
+.form-btn:hover{
+    color: white;
+    background-color: black;
+    /* color: white;
+    background-color: #a9aaad; */
+}
+#form-submit{
+    margin: 1rem 1rem 1rem 14rem;
+}
+#form-reset{
+    margin: 1rem 0rem 1rem 2rem;
+}
+
+.optionContainer{
+    background-color: #c1f0f1;
+}
+
+.optionListContainer {
+    position: relative;
+    width: 95%;
+    margin: 0rem 0.5rem;
+    background: #fff;
+    border-radius: 4px;
+    margin-top: 1px;
+    z-index: 2;
+}
+
+.searchWrapper{
+    width: 98%;
+    margin: 0rem 0.5rem;
+    background-color: #c1f0f1;
+    height: 105px;
+}
+
+ @media only screen and (max-width: 600px) {
+     .college{
+         display: none;
+     }
+     .home-container{
+         display: block;
+         margin: 0 5rem;
+         /* flex-direction: column;
+         justify-content: center;
+         align-items: center; */
+         top : 0;
+         /* left: 14rem; */
+     }
+     .form-container{
+        position: relative;
+        /* top: 5rem; */
+        /* justify-content: center;
+        align-items: center;
+         */
+         /* flex-direction: column; */
+     }
+     .form-body{
+        /* width: 100vh; */
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        margin: auto;
+     }
+    .form-items{
+        display: block;
+    }
+/*    .form-head{
+        top: -47rem;
+        right: -37rem;
+        width: 26.4rem;
+    }
+    .form-body{
+        top: -47rem;
+        right: -37rem;
+        width: 26.4rem; */
+        /* height: 27.5rem; */
+        /* height: auto;
+    }
+    #form-head-p1{
+        line-height: 1.4rem;
+        margin-top: 1.2rem;
+        margin-bottom: -1rem;
+    }
+    #form-head-p2{
+        line-height: 1.4rem;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+        margin-left: 3.5rem;
+    }
+    .form-head span{
+        margin-top: 1.5rem;
+    }
+    .college{
+        top: 6.7rem;
+        margin-left: -15rem;
+        height: 35rem;
+    }
+    #form-submit{
+        margin: 1rem 1rem 1rem 5rem;
+    }
+    #form-reset{
+        margin: 1rem 1rem 1rem 2rem;
+    }
+
+    .searchWrapper{
+        height: 161.4px;
+    } */
+}

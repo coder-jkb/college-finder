@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.collegefinder {
+    display: inline;
+    box-sizing: border-box;
+    margin: 1.5rem 1.5rem;
+}
+
+.mainheading{
+    width: 30rem;
+    position: relative;
+    top: -14rem;
+    left: 15rem;
+    font-size: 3rem;
+}
+.subheading{
+    width: 30rem;
+    position: relative;
+    top: -13.5rem;
+    left: 15rem;
+    font-size: 2rem;
+}
